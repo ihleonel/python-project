@@ -13,3 +13,5 @@
 9. Crear una funcion que reciba una lista y devulva el ultimo elemento de esa lista.
 10. Crear una función que reciba un número entero y determine si es un número primo.
 11. Crear una función recursiva que devuleva los 100 primeros numero de Fibonacci.
+
+> En este repositorio se van a ir dejando los ejercicios resueltos. Cada ejercicio deberá esta resulto en un archivo diferente y deberá ser nombrado como ejercicio1.py, etc. Cada ejercicio deberá ser enviado en un commit diferente.
