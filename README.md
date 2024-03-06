@@ -13,4 +13,4 @@
 21. Crear una funcion que genere un archivo *.txt* llamado *archivo.txt* que tenga de contenido el texto "Hola mundo."
 22. Crear una función que lea un archivo *.txt* llamado *data.txt* y retorne la suma de todos los numeros que contiene. El archivo *data.txt* ya esta generado en el repositorio. Ojo hay trampa!
 
-> En este repositorio se van a ir dejando los ejercicios resueltos. Cada ejercicio deberá esta resulto en un archivo diferente y deberá ser nombrado como ejercicio1.py, etc. Cada ejercicio deberá ser enviado en un commit diferente.
+> En este repositorio se van a ir dejando los ejercicios resueltos. Cada ejercicio deberá esta resulto en un archivo diferente y deberá ser nombrado como ejercicio1.py, etc. Cada ejercicio deberá ser enviado en un commit diferente. Próximos ejercicios con clases y test ...
