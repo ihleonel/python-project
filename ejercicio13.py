@@ -3,5 +3,5 @@ import random
 def  random_x():
     return random.randint(1,101)
 
-numero = random_x()
-print(numero)
+#numero = random_x()
+#print(numero)
