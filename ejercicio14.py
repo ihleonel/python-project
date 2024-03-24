@@ -7,6 +7,6 @@ def generar_lista():
         lista.append(ejercicio13.random_x())
     return lista
 
-print(" ---- GENERAR LISTA DE NUMEROS ALEATORIOS ----")
-numeros = generar_lista()
-print(numeros)
+#print(" ---- GENERAR LISTA DE NUMEROS ALEATORIOS ----")
+#numeros = generar_lista()
+#print(numeros)
