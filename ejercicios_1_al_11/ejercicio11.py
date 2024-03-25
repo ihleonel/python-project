@@ -10,4 +10,3 @@ def fibonacci(num1,num2,cantidad):
 
 valor = int (input("ingrese cantidad  de numeros fibonacci  : "))
 fibonacci(0,1,valor)
-        
