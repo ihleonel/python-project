@@ -11,10 +11,10 @@
 - Un método que reciba como parámetro un nombre para poder modificar el atributo *nombre* de la clase.
 
 24. Importando y usando la clase "Usuario" creada en el ejercicio anterior. Crear la clase "LectorUsuario" que contenga:
-- Un metodo "obtener_usuarios" que obtenga los datos del archivo "database.txt" y retorne una lista de elementos de la clase Usuario cargando casa usuario con los datos del archivo.
+- Un metodo "obtener_usuarios" que obtenga los datos del archivo "database.txt" y retorne una lista de elementos de la clase Usuario cargando casa usuario con los datos del archivo. Ejemplo retornar [Usuario(JuanGar28,Rt7#2Ky9), Usuario(), ..., Usuario()]
 
-25. Importando y usando la clase "Usuario". Crear la clase CreadorUsuario que contenga:
-- Un metodo "crear_usuario" que reciba como parametro un objeto "Usuario" y que guarde los datos de ese objeto en el archivo "database.txt". No debera sobreescribir o borrar los datos que ya existen en el archivo el nuevo usuario debera agregarse al final del archivo.
+25. Importando y usando la clase "Usuario". Crear la clase "CreadorUsuario" que contenga:
+- Un metodo "crear_usuario" que reciba como parametro un objeto "Usuario" y que guarde los datos de ese objeto en el archivo "database.txt". No debera sobreescribir o borrar los datos que ya existen en el archivo, el nuevo usuario debera agregarse al final del archivo.
 
 26. Se deberá crear una función que reciba dos matrices cuadradas como parametros y debara retornar si son equivalentes o no. Para determinar si la funcion es correcta se debera correr el test `python3 test_ejercicio26.py` y se deberá mostrar el mensaje "PRUEBAS PASADAS CON EXITO".
 
