@@ -18,7 +18,6 @@ def sumar_numeros():
 		    subindice = i
 	return sumando
 
-if __name__ == sumar_numeros() :
-	print(" RESULTADO = ",sumar_numeros())
-	data.txt.close()
+print(" RESULTADO = ",sumar_numeros())
+
 
