@@ -2,15 +2,30 @@
 
 ## Tareas
 
-12. Crear una función que reciba un string y determine si es un palindromo.
-13. Crear una función que genere un número entero aleatorio entre el 1 y 100.
-14. Crear una función que genere una lista de numeros entros aleatorios de 1000 elementos. Importar y usar la función creada en el punto anterior
-15. Crear una función que reciba una lista de numeros enteros y retorne su promedio. Importar y usar la funcion creada en el punto anterior.
-16. Crear una función que reciba una lista de numero enteros y retorne el maximo de la lista. Importar y usar la funcion creada en el punto 14.
-17. Crear una funcion que reciba una lista de numero enteros y retorne la misma lista orndenada de mayor a menor. Importar y usar la funcion creada en el punto 14.
-18. Crear una funcion que genere una matriz *cuadrada* de 10 filas y 10 columnas de números aleatorios. Importar y usar la funcion creada en el punto 14.
-19. Crear una funcion que reciba una matriz cuadrada y retorne la suma de su diagonal. Importar y usar la funcion creada en el punto anterior.
-20. Crear una funcion que genere un archivo *.txt* llamado *archivo.txt* que tenga de contenido el texto "Hola mundo."
-21. Crear una función que lea un archivo *.txt* llamado *data.txt* y retorne la suma de todos los numeros que contiene. El archivo *data.txt* ya esta generado en el repositorio. Ojo hay trampa!
+22. Crear una clase que contenga:
+- Un método que reciba como parametro una lista de número enteros se determine si la lista esta ordenada ascendentemente o no, retornado True si la lista es esta ordenada o False si la lista no esta ordenada
 
-> En este repositorio se van a ir dejando los ejercicios resueltos. Cada ejercicio deberá esta resulto en un archivo diferente y deberá ser nombrado como ejercicio1.py, etc. Cada ejercicio deberá ser enviado en un commit diferente. Próximos ejercicios con clases y test ...
+23. Crear la clase Usuario que contenga:
+- Dos atributos: *nombre* y *clave*
+- Un método `__init__` que reciba los parametros para cargar los atributos de la clase.
+- Un método que reciba como parámetro un nombre para poder modificar el atributo *nombre* de la clase.
+
+24. Importando y usando la clase "Usuario" creada en el ejercicio anterior. Crear la clase "LectorUsuario" que contenga:
+- Un metodo "obtener_usuarios" que obtenga los datos del archivo "database.txt" y retorne una lista de elementos de la clase Usuario cargando casa usuario con los datos del archivo. Ejemplo retornar [Usuario(JuanGar28,Rt7#2Ky9), Usuario(), ..., Usuario()]
+
+25. Importando y usando la clase "Usuario". Crear la clase "CreadorUsuario" que contenga:
+- Un metodo "crear_usuario" que reciba como parametro un objeto "Usuario" y que guarde los datos de ese objeto en el archivo "database.txt". No debera sobreescribir o borrar los datos que ya existen en el archivo, el nuevo usuario debera agregarse al final del archivo.
+
+26. Se deberá crear una función que reciba dos matrices cuadradas como parametros y debara retornar si son equivalentes o no. Para determinar si la funcion es correcta se debera correr el test `python3 test_ejercicio26.py` y se deberá mostrar el mensaje "PRUEBAS PASADAS CON EXITO".
+
+27. Se deberá crear una función que reciba una matriz cuadrada nxn y retorne la misma matriz pero rotada 90 grados en sentido de las agujas del reloj. Ver los casos de prueba en el archivo "test_ejercicio27.py". Correr el test `python3 test_ejercicio27.py` se deberá mostrar el mensaje "PRUEBAS PASADAS CON EXITO".
+
+28. Se deberá crear una función que reciba una lista de numeros enteros como parametro y determine si eliminando como maximo un elemento de la lista la misma queda ordenada ascendentemente, si es asi la funcion deberá retornar un True, en caso contrario retornar False. Ejemplo dado [1, 2, 4, 2] la funcion retorna un True. Correr el test `python3 test_ejercicio28.py` se deberá mostrar el mensaje "PRUEBAS PASADAS CON EXITO".
+
+29. Se debera crear una funcion y un test para probar dicha funcion como se plantearon en los ejercicios anteriores (26, 27, y 28). La funcion debera recibir dos numero enteros y retornar su suma. No olvidar crear el test con los casos de prueba
+
+30. Se debera crear una funcion y un test para probar dicha funcion como se plantearon en los ejercicios anteriores (26, 27, y 28). La funcion debera recibir dos numeros enteros y retornar su division. No olvidar crear el test con los casos de prueba
+
+31. Se debera crear una funcion y un test para probar dicha funcion como se plantearon en los ejercicios anteriores (26, 27, y 28). La funcion debera recibir una cadena de texto y debera retornar la cantidad de repeticiones del caracter que mas se repite en la cadena. Ejemplo, dado "abbbbbbc" la funcion debera retornar 6 ya que es la cantidad de veces que se repite la letra 'b'. No olvidar crear el test con los casos de prueba
+
+> En este repositorio se van a ir dejando los ejercicios resueltos. Cada ejercicio deberá estar resuelto en un archivo diferente y deberá ser nombrado como ejercicio1.py, etc. Cada ejercicio deberá ser enviado en un commit diferente.
