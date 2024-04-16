@@ -5,17 +5,17 @@
 
 class Usuario :
 
-	def __init__(self, nombre, clave):
-		self.nombre = nombre
-		self.clave = clave
+    def __init__(self, nombre: str, clave: str):
+        self.nombre = nombre
+        self.clave = clave
 
-	def __str__(self):
-		return f"{"USUARIO : "+self.nombre}{"  CLAVE : "+self.clave}"
+    def __str__(self)->str:
+        return f"USUARIO : {self.nombre}  CLAVE : {self.clave}"
 
-	def modificar_nombre(self, nombre_nuevo):
-		self.nombre = nombre_nuevo
+    def modificar_nombre(self, nombre_nuevo: str)->None:
+        self.nombre = nombre_nuevo
 
-persona = Usuario("MauricioV2024", "aWqeasWQ")
+persona = Usuario("Mauricio2024", "aWqeasWQ")
 print(persona)
 nuevo_dato = "Villca2024"
 persona.modificar_nombre(nuevo_dato)
