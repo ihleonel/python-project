@@ -13,7 +13,7 @@ class LectorUsuario():
         lista_usuarios = []
         for user in fila_usuarios:
             nombre = user[0:user.index(',')]
-            clave = user[user.index(',')+1 : user.index('\n')]
+            clave = user[user.index(',') + 1:user.index('\n')]
             persona = Usuario(nombre, clave)
             lista_usuarios.append(persona)
         return lista_usuarios
