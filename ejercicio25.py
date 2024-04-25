@@ -6,19 +6,17 @@
 from ejercicio23 import Usuario
 class CreadorUsuario():
     def crear_usuario(self, Usuario_nuevo: Usuario):
-        archivo = open("database.txt", "a")
+        archivo = open("database.txt", "w")
         nombre = Usuario_nuevo.nombre
         clave = Usuario_nuevo.clave
-        archivo.write(nombre + "," + clave)
-        archivo = open("database.txt", "r")
-        print(archivo.read())
+        archivo.write(nombre + "," + clave + "\n")
         archivo.close()
 
 if __name__ == '__main__':
     nuevo_usuario = Usuario("Mauricio2024", "Ky4&Wc6%")
     modificar = CreadorUsuario()
-    #modificar.crear_usuario(nuevo_usuario)
-    modificar.replace("Mauricio2024,Ky4&Wc6%")
+    modificar.crear_usuario(nuevo_usuario)
+
 
 
 
