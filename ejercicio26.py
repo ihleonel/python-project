@@ -18,6 +18,9 @@ def comparar_matrices_cuadradas(matriz_1, matriz_2):
 #     if len(matriz_1) != len(matriz_2):
 #         return False
 
+#    if len(matriz_1[0]) != len(matriz_2[0]):
+#         return False
+
 #     band = True
 #     for i in range(len(matriz_1)):
 #         if matriz_1[i] != matriz_2[i]:
