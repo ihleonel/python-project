@@ -3,8 +3,8 @@ from ejercicio26 import comparar_matrices_cuadradas
 
 
 caso1 = [
-    [1],
-    [1],
+    [[1]],
+    [[1]],
     True
 ]
 caso2 = [
