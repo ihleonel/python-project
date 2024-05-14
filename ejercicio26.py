@@ -16,6 +16,4 @@ def comparar_matrices_cuadradas(matriz_1, matriz_2):
 if __name__ == '__main__':
     m = [[1,2],[2,2,2]]
     p = [[1,2],[2,2,2]]
-    print(len(m[0]))
-    print(len(m))
     print(comparar_matrices_cuadradas(m, p))
