@@ -23,6 +23,7 @@ if (casi_ordenado(caso1[0]) == caso1[1] and
     casi_ordenado(caso3[0]) == caso3[1] and
     casi_ordenado(caso4[0]) == caso4[1] and
     casi_ordenado(caso5[0]) == caso5[1]) :
+    
     print('PRUEBAS PASADAS CON EXITO')
-else:
+else:    
     print('EL TEST FALLÓ')
