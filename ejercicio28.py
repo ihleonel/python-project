@@ -33,6 +33,6 @@ def casi_ordenado(lista: list)->bool:
     else :
         print("--- LISTA VACIA ----")
 if __name__ == '__main__':
-    lista = [1, 2, 3, 1]
-    print(casi_ordenado(lista))
-    print(lista)
+    l = [1, 2, 3, 1]
+    print(casi_ordenado(l))
+    print(l)
